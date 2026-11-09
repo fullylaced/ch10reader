@@ -1,0 +1,4 @@
+// gui/app.rc — Windows resources. Pulling in wx.rc gives the executable the
+// application manifest wxWidgets needs for themed controls and per-monitor
+// DPI awareness on Windows 10/11.
+#include "wx/msw/wx.rc"
