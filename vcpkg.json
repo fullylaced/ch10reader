@@ -1,0 +1,13 @@
+{
+  "name": "ch10reader",
+  "version-string": "0.3.0",
+  "description": "IRIG 106 Chapter 10 reader (TMATS, 1553, video) with a wxWidgets GUI and synchronized playback",
+  "dependencies": [
+    "wxwidgets",
+    {
+      "name": "ffmpeg",
+      "default-features": false,
+      "features": [ "avcodec", "avformat", "swscale" ]
+    }
+  ]
+}

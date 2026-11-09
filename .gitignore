@@ -1,0 +1,15 @@
+build/
+out/
+*.ch10
+!tests/**/*.ch10
+*.wav
+*.pcap
+*.csv
+*.ppm
+.vs/
+.vscode/
+.idea/
+CMakeUserPresets.json
+__pycache__/
+*.DS_Store
+Thumbs.db
